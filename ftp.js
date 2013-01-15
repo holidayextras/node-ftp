@@ -164,8 +164,7 @@ FTP.prototype.connect = function(port, host) {
             var parsed = text.match(/([\d]+),([\d]+),([\d]+),([\d]+),([-\d]+),([-\d]+)/);
             if (!parsed)
               throw new Error('Could not parse passive mode response: ' + text);
-            self._pasvIP = parsed[1] + '.' + parsed[2] + '.' + parsed[3] + '.'
-                          + parsed[4];
+            self._pasvIP = self.options.host;
             self._pasvPort = (parseInt(parsed[5], 10) * 256)
                              + parseInt(parsed[6], 10);
             self._pasvConnect();
