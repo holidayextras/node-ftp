@@ -5,6 +5,6 @@
   "main": "./ftp",
   "engines": { "node" : ">=0.4.0" },
   "keywords": [ "ftp", "client", "transfer" ],
-  "licenses": [ { "type": "MIT", "url": "http://github.com/danjenkins/node-ftp/raw/master/LICENSE" } ],
-  "repository" : { "type": "git", "url": "http://github.com/danjenkins/node-ftp.git" }
+  "licenses": [ { "type": "MIT", "url": "http://github.com/holidayextras/node-ftp/raw/master/LICENSE" } ],
+  "repository" : { "type": "git", "url": "http://github.com/holidayextras/node-ftp.git" }
 }
